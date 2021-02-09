@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.rog">
+<head>
+    <meta charset="UTF-8"/>
+    <title>London Hotel | Login </title>
+</head>
+<body>
+    <form th:action="@{/login}" method="post">
+        <div>
+            <label>User Name: <input type="text" name="username"/></label>
+            <label>Password: <input type="password" name="password"/></label>
+        </div>
+            <input type="submit" value="Login"/>
+        </div>
+    </form>
+</body>
+</html>
